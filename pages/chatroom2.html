@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>某管理系统</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        body {
+            padding-top: 50px;
+            padding-bottom: 40px;
+
+            color: #5a5a5a;
+        }
+
+/* 下面是左侧导航栏的代码 */
+.sidebar {
+            position: fixed;
+            top: 51px;
+            bottom: 0;
+            left: 0;
+            z-index: 1000;
+            display: block;
+            padding: 20px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            border-right: 1px solid #eee;
+            /*background-color: #ddd;*/
+            background-image: url(../img/chatroom/left.jpg);
+            background-repeat: none;
+            background-attachment: scroll;
+            /*background-position: center center;*/
+            background-position: center left;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+        }
+
+        
+/*         .chat-sidebar > li {
+    text-indent: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #fff;
+} */
+
+        .main {
+            padding: 20px;
+        }
+
+        .main .page-header {
+            margin-top: 0;
+        }
+</style>
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        $("#mynav").load("mynav.html", function() {
+            $("#chatroom").addClass("active");    
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <!--下面是顶部导航栏的代码-->
+    <div id="mynav"></div>
+
+    <!—自适应布局-->
+    <div class="container-fluid">
+        <div class="row">
+            <!—左侧导航栏-->
+            <div class="col-sm-3 col-md-2 sidebar">
+                <table class="chat-sidebar" style="text-align: center;font-weight: bold;line-height: 2em;color: #000;margin: 0px auto;">
+                    <tr><td>
+                        <img alt="YBZ" src="../img/chatroom/chatroom1.png" width="150" height="150" style="border: 3px solid #fff;margin: 10px auto 30px;"/>
+                    </td></tr>
+                    <div>
+                    <tr><td>所有人</td></tr>
+                    <tr><td>test1</td></tr>
+                    <tr><td>test2</td></tr>
+                    <tr><td>test3</td></tr>
+                    </div>
+                </table>
+            </div>
+        </div>
+        <!—右侧管理控制台-->
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 col-xs-9 col-xs-offset-3 main"  id="blog_right">
+            <div>
+                <!—panel面板，里面放置一些控件，下同-->
+                <div class="row">
+                    <div class="col-md-9" style="position: fixed;top: 65px;bottom: 140px;overflow: scroll">
+                        <h2 class="page-header">聊天室</h2>
+                        <div class="panel panel-primary" style="border-color: #D9EDF7">
+                            <!—panel面板的标题，下同-->
+                            <div class="panel-heading" style="color: #000;background-color: #D9EDF7;border-color: #D9EDF7">
+                                <!-- <h1 class="panel-title" style="color: #000;text-indent: 100px;">最新提醒</h1> -->
+                                <div class="row">
+                                    <div class="col-md-7 col-md-offset-1">
+                                        <h2 style="font-weight:bold;margin: 0px auto;display: inline">文章1
+                                        </h2>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h4>2016年5月13日</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!—panel面板的内容，下同-->
+                            <div class="panel-body" style="color: #000;">
+                                <p style="font-size: 1.4em;text-indent: 2em;">
+                                这里是摘要内容
+                                </p>
+                                <div style="margin: 15px auto">
+                                    <a href="blog_content.html" style="font-size: 1.8em;">阅读全文</a>
+                                </div>
+                                <!-- <div class="alert alert-success" role="alert"> <strong>提示</strong>
+                                    您的订单（2014001）已经审批通过！
+                                </div>
+                                <div class="alert alert-danger" role="alert"> <strong>提示</strong>
+                                    您的订单（2014002）被打回！
+                                </div>
+                                <div class="alert alert-warning" role="alert">
+                                    <strong>提示</strong>
+                                    您的订单（2013001）客户付款延迟！
+                                </div> -->
+                            </div>
+                        </div>
+                        <div>test</div><div>test</div><div>test</div><div>test</div>
+                    <div>test</div><div>test</div><div>test</div><div>test</div>
+                    <div>test</div><div>test</div><div>test</div><div>test</div>
+                    <div>test</div><div>test</div><div>test</div><div>test</div>
+                    <div>test</div><div>test</div><div>test</div><div>test</div>
+                    <div>test</div><div>test</div><div>test</div><div>test</div>
+                    <div>test</div><div>test</div><div>test</div><div>test</div>
+                    <div>test</div><div>test</div><div>test</div><div>test</div>
+                    <div>test</div><div>test</div><div>test</div><div>test</div>
+                    <div>test</div><div>test</div><div>test</div><div>test</div>
+                    </div>
+                </div>
+                <div class="row" style="position: fixed; bottom: 0px;">
+                    <table border="0" align="left" bordercolor="#D6D3CE" style="margin: auto 15px; border-collapse:separate; border-spacing:10px; ">
+
+                        <form role="form" action="" id="form1" name="form1" method="post">
+                            <input type="hidden" name="method" value="sendMessage"/>
+                            <tr>
+                                <td>
+                                <input name="from" type="hidden" value="${existUser.username}">[${existUser.username} ]对 
+                                <input class="form-control" style="width: 150px; background-color: #FFF; display: inline;" name="to" type="text" value="" readonly="readonly"> 说：</td>
+                                <td width="189" align="left">&nbsp;&nbsp;字体颜色： <select
+                                    name="color" size="1" class="wenbenkuang" id="select">
+                                        <option selected>默认颜色</option>
+                                        <option style="color:#FF0000" value="FF0000">红色热情</option>
+                                        <option style="color:#0000FF" value="0000ff">蓝色开朗</option>
+                                        <option style="color:#ff00ff" value="ff00ff">桃色浪漫</option>
+                                        <option style="color:#009900" value="009900">绿色青春</option>
+                                        <option style="color:#009999" value="009999">青色清爽</option>
+                                        <option style="color:#990099" value="990099">紫色拘谨</option>
+                                        <option style="color:#990000" value="990000">暗夜兴奋</option>
+                                        <option style="color:#000099" value="000099">深蓝忧郁</option>
+                                        <option style="color:#999900" value="999900">卡其制服</option>
+                                        <option style="color:#ff9900" value="ff9900">镏金岁月</option>
+                                        <option style="color:#0099ff" value="0099ff">湖波荡漾</option>
+                                        <option style="color:#9900ff" value="9900ff">发亮蓝紫</option>
+                                        <option style="color:#ff0099" value="ff0099">爱的暗示</option>
+                                        <option style="color:#006600" value="006600">墨绿深沉</option>
+                                        <option style="color:#999999" value="999999">烟雨蒙蒙</option>
+                                </select>
+                                </td>
+                                <td width="19" align="left"><input name="scrollScreen"
+                                    type="checkbox" class="noborder" id="scrollScreen"
+                                    onClick="checkScrollScreen()" value="1" checked>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="549" align="left">
+                                    <!--
+                                    <textarea class="form-control" rows="2" name="content" onKeyDown="if(event.keyCode==13 && event.ctrlKey){send();}"></textarea>
+                                     -->
+                                    <input class="form-control" background-color: #FFF;" name="content" type="text" value="" onKeyDown="if(event.keyCode==13 && event.ctrlKey){send();}">
+                                </td>
+                                <td align="right">
+                                    <button name="button_exit" type="button" class="btn btn-info" style="font-weight: bold;" value="退出聊天室" onClick="exit()">退出聊天室</button>
+                                </td>
+                                <td align="center">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button type="button" class="btn btn-info" style="font-weight: bold;" value="发送" onClick="send()">提交</button>
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

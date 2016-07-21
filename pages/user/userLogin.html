@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>后台管理系统</title>
+
+    <!-- Bootstrap -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+      <script src="../../js/respond.min.js"></script>
+    <![endif]-->
+    <script src="../../js/jquery-1.11.3.js"></script>
+    <script src="../../js/botstrap.min.js"></script>
+
+    <style type="text/css">
+        body {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #f5f5f5;
+        }
+
+        .form-signin {
+            max-width: 300px;
+            padding: 19px 29px 29px;
+            margin: 0 auto 20px;
+            background-color: #fff;
+            border: 1px solid #e5e5e5;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+            -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+        }
+
+        .form-signin .form-signin-heading,
+        .form-signin .checkbox {
+            margin-bottom: 15px;
+        }
+
+        .form-signin input[type="text"],
+        .form-signin input[type="password"] {
+            font-size: 16px;
+            height: auto;
+            margin-bottom: 15px;
+            padding: 7px 9px;
+        }
+
+    </style> 
+  </head>
+
+<body>
+<div class="container">
+
+    <form role="form" class="form-signin" method="post" action="../index.html">
+        <h2 class="form-signin-heading" style="font-weight: bold;">登录</h2>
+        <!-- <input type="text" name="username" class="input-block-level" placeholder="账号">
+        <input type="password" name="password" class="input-block-level" placeholder="密码">
+        <input type="text" name="verify" class="input-medium" placeholder="验证码"> -->
+        <input type="text" name="username" class="form-control" placeholder="账号">
+        <input type="password" name="password" class="form-control" placeholder="密码">
+        <input type="text" name="verify" class="form-control" placeholder="验证码">
+       
+        <p style="margin-top: 5px"><button class="btn btn-large btn-primary" type="submit">登录</button><button class="btn btn-large btn-info" style="margin-left: 15px" type="submit">注册</button></p>
+    </form>
+
+</div>
+</body>
+</html>
