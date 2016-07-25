@@ -20,4 +20,4 @@
 - 后期还需要补充前端的知识，还需要看看AngularJs、ReactJs等前端框架
 
 附首页图：
-![home](http://o8r9omg0x.bkt.clouddn.com/img/try_github/try_mywebsite_pages/home.png)
+![home](http://o8r9omg0x.bkt.clouddn.com/img/try_github/try_mywebsite_pages/home_sm.jpg)
